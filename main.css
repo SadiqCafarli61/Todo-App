@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: rgba(54, 141, 141, 0.726);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.search input{
+    padding: 7px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #222;
+    font-size: 17px;
+    width: 200px;
+    border-radius: 10px;
+}
+.search button{
+    width: 30px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(182, 33, 58);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-left: 7px;
+}
+.search button:hover{
+    background-color: purple;
+}
+.todo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.todo-list{
+    list-style-type: none;
+    min-height: 25%;
+}
+.todo{
+    margin: 0.5rem;
+    background-color: #fff;
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+.todo .todo-item{
+width: 220px;
+height: 40px;
+padding-left: 50px;
+}
+.complete-btn{
+    background-color: rgb(87, 168, 141);
+    color: #222;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+   
+}
+.complete-btn:hover{
+    background-color: rgb(30, 190, 30);
+    color: #fff;
+}
+.delete-btn{
+    background-color: red;
+    color:blue;
+    font-size: 30px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.delete-btn:hover{
+    background-color: #fff;
+    color: red;
+}
